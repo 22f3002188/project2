@@ -79,7 +79,7 @@ function_definitions = [
 ]
 
 
-your_api_key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDIxODhAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.971Jg61VoIXRtGmoRvOwyjtrglH3Ca0yuiaxsAkK6iY" 
+your_api_key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZj" 
 client = OpenAI(api_key=your_api_key)
 
 def parse_llm_task(q: str):
